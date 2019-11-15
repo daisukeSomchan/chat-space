@@ -1,15 +1,14 @@
 # README
 
-## groups_usersテーブル
+## groups_users テーブル
 
-|Column|Type|Options|
-|------|----|-------|
-|user_id|integer|null: false, foreign_key: true|
-|group_id|integer|null: false, foreign_key: true|
+| Column   | Type    | Options                        |
+| -------- | ------- | ------------------------------ |
+| user_id  | integer | null: false, foreign_key: true |
+| group_id | integer | null: false, foreign_key: true |
 
 ### Association
+
 - belongs_to :group
 - belongs_to :user
-
-
-
+　
