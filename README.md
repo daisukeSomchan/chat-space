@@ -12,3 +12,4 @@
 - belongs_to :user
 
 
+
